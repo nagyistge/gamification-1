@@ -1,0 +1,35 @@
+
+
+.bar {
+  background: #42a5f5;
+  width: 0;
+  margin: .25em 0;
+  color: #fff;
+  position: relative;
+  transition: width 2s, background .2s;
+  -webkit-transform: translate3d(0, 0, 0);
+  clear: both;
+}
+.bar:nth-of-type(2n) {
+  background: #42a5f5;
+}
+.bar .label {
+  font-size: .75em;
+  padding: 1em;
+  background: #425577;
+  width: 8em;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+.bar .label.light {
+  background: #5555aa;
+}
+
+.count {
+  position: absolute;
+  right: .25em;
+  top: .75em;
+  padding: .15em;
+  font-size: .75em;
+}
